@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserInterface.HomeScreen">
+
+
+    <ImageView
+        android:id="@+id/bank_logo"
+        android:layout_width="291dp"
+        android:layout_height="289dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.308"
+        app:srcCompat="@drawable/banklogo" />
+
+    <Button
+        android:id="@+id/Users"
+        android:layout_width="189dp"
+        android:layout_height="61dp"
+        android:layout_marginBottom="40dp"
+        android:text="Users"
+        android:onClick="showAllUsers"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.779" />
+
+    <Button
+        android:id="@+id/Transaction"
+        android:layout_width="192dp"
+        android:layout_height="61dp"
+        android:text="Transaction"
+        android:onClick="showAllTransactions"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.887" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="214dp"
+        android:layout_height="56dp"
+        android:text="SparkBank"
+        android:textAlignment="center"
+        android:textColor="#C80B99"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.53" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
