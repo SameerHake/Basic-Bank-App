@@ -46,8 +46,6 @@
 
 ------------------------------------------
 
-### Transaction History Showing Successfull & Cancelled Transactions
-<img src="https://github.com/tanishq1306/BasicBankingApp/blob/master/ss/Transaction%20History.jpeg" width ="250px" height ="450px">
 
 ------------------------------------------
 
