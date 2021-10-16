@@ -41,8 +41,6 @@
 
 ------------------------------------------
 
-### Updated Amount In Users List
-<img src="https://github.com/tanishq1306/BasicBankingApp/blob/master/ss/Updated%20Amount.jpg" width ="250px" height ="450px">
 
 ------------------------------------------
 
