@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animationCache="true"
+    tools:context=".SpashActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="417dp"
+        android:layout_height="743dp"
+        android:background="#F35B09"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/bank_logo" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="364dp"
+        android:layout_height="68dp"
+        android:text="   All Right Are Reserved"
+        android:textColor="@color/black"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.659"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="247dp"
+        android:layout_height="60dp"
+        android:text="Spark Bank"
+        android:textAlignment="center"
+        android:textSize="32dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+
+        />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
